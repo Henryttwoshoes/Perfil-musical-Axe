@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    transition: 0.1s;
+    transition: 0.3s;
 
     & span, p {
         

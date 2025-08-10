@@ -1,0 +1,30 @@
+.bio {
+    padding: 10px;
+    
+    & h1{
+        padding: .5rem;
+        font-size: 2rem;
+    }
+    
+}
+.caixa {
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 400px;
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    background-image: linear-gradient(to bottom, #ffffff00, #000000 200%), url(../imagens/bio/placeholder.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+    & span {
+        padding: 10px;
+        text-align: left;
+    }
+}

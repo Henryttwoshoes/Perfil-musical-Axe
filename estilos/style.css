@@ -76,8 +76,10 @@ header{
 
 main {
     background-color: #121212;
-    height: 98vh;
     color: white;
+    & h1 {
+        padding: 20px;
+    }
 }
 
 /* Seção de músicas populares*/
